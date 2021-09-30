@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -c $CFILE -o $CFILE.o
+AUX= echo $CFILE | tr -d .c
+gcc -c $CFILE -o $AUX.o
