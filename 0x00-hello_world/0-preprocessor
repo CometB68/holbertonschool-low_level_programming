@@ -1,8 +1,2 @@
-#include <stdio.h>
-
-
-int main()
-{
-/*main function*/
-return 0;
-}
+#!/bin/bash
+gcc -o c $CFILE
