@@ -7,9 +7,9 @@
 */
 int main(void)
 {
-	srand(time(NULL));
 	int n;
 
+	srand(time(NULL));
 	n = rand() - RAND_MAX / 2;
 
 	n > 0 ? printf("%i is positive", n)
